@@ -11,4 +11,14 @@
   padding: 30px;
   margin: 10vh auto;
   background-color: rgb(238, 255, 253);
+  box-shadow: 0px 2px 15px #ccc;
+}
+
+select{
+  width: 250px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  outline: none;
 }
