@@ -31,13 +31,17 @@ function LineChart ({labels, data}) {
                             'rgba(153, 102, 255, 1)',
                             'rgba(255, 159, 64, 1)'
                         ],
-                        borderWidth: 2,
-                        tension:0.4,
+                        borderWidth: 0.5,
+                        borderJoinStyle:'none',
+                        tension:0.5,
                     }]
                 }}
                 width={600}
                 height={400}
                 options= {{
+                    elements: {
+                        point:{radius:0}
+                    },
                     animation: false,
                     maintainAspectRatio: false,
                     scales: {

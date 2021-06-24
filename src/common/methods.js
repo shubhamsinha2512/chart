@@ -7,10 +7,10 @@ export function getTime(seconds){
 export function getLabels(data){
     let labels = [];
     let i=0;
-    while(i<data.length){
+    while(i<data.length/10){
         // console.log("Bar",i,  data[i]);
         labels.push(getTime(data[i][0]))
-        i = i+ Math.round(data.length/6) -1;
+        i++;
     }
     // console.log("labels",labels)
     return labels;

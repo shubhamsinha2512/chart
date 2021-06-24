@@ -32,7 +32,6 @@ function BarChart({labels, data}) {
                         ],
                         borderWidth: 2,
                         tension:0.1,
-                        borderDash: [10,2],
                     }]
                 }}
                 width={600}
