@@ -38,6 +38,7 @@ function BarChart({labels, data}) {
                 width={600}
                 height={400}
                 options= {{
+                    animation : false,
                     maintainAspectRatio: false,
                     scales: {
                         y: {
